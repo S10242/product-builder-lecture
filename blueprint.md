@@ -8,9 +8,14 @@ This is a simple web application that generates 6 random lotto numbers between 1
 *   Displays the numbers in a clean and modern interface.
     *   Dark/Light mode toggle.
 
-## Current Task: Integrate Google AdSense
+## Current Task: Optimize for AdSense Approval
 
-*   **ads.txt**: Create a new file named `ads.txt` in the root directory with the provided content.
-*   **HTML**:
-    *   Add the AdSense script and meta tag to the `<head>` section of both `index.html` and `contact.html`.
-    *   Add an ad unit to the body of both pages.
+*   **Create `about.html`**: A page explaining the Lotto Number Generator.
+*   **Create `privacy.html`**: A standard privacy policy page.
+*   **Create `terms.html`**: A standard terms of service page.
+*   **Update `index.html`**:
+    *   Add a proper navigation bar in the header linking to Home, About, Contact, Privacy, and Terms.
+    *   Add more descriptive text to the main content area.
+*   **Update `contact.html`**:
+    *   Add the new navigation bar.
+*   **Update `style.css`**: Add styles for the new navigation bar.
