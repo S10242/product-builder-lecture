@@ -6,14 +6,10 @@ This is a simple web application that generates 6 random lotto numbers between 1
 
 *   Generates 6 unique random numbers.
 *   Displays the numbers in a clean and modern interface.
-*   Dark/Light mode toggle.
+    *   Dark/Light mode toggle.
 
-## Current Task: Add Dark/Light Mode Toggle
+## Current Task: Create Formspree Contact Form
 
-*   **HTML**: Add a theme toggle switch to `index.html`.
-*   **CSS**: Create a new `:root` definition for the `light-mode` class.
-*   **JavaScript**:
-    *   Get references to the theme toggle switch and the `body`.
-    *   Add a `click` event listener to the switch.
-    *   When the switch is clicked, toggle the `light-mode` class on the `body`.
-    *   Store the user's preference in `localStorage` and apply it on page load.
+*   **HTML**: Create a new `contact.html` file with a basic form that includes fields for name, email, and message. This form will use Formspree's action URL. Add a link to this new page in `index.html`.
+*   **CSS**: Add basic styling for the form in `style.css`.
+*   **JavaScript**: Ensure the theme toggling works for the new page.
